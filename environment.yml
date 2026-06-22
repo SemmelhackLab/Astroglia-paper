@@ -1,0 +1,31 @@
+name: astrocyte
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - h5py
+  - openpyxl
+  - tqdm
+  - pillow
+  - tifffile
+  - opencv
+  - lightgbm
+  - kneed
+  - upsetplot
+  - pytorch
+  - cpuonly
+  - pip:
+      - pycatch22
+      - sktime
+      - scikit-multilearn
+      - rastermap
