@@ -13,13 +13,15 @@ cd Astroglia-paper
 
 # Demo: Astroglia NMF analysis pipeline
 
-This repository contains a runnable demo that reproduces the full analysis pipeline for a single fish (default: `20250807-F1`) in .\demo, starting from the astroglia activity matrix (cells × time) and ending with:
+This repository contains a runnable demo (run_demo.py) that reproduces the full analysis pipeline for a single fish (default: `20250807-F1`), starting from the astroglia activity matrix (cells × time) and ending with:
 
 - Rastermap visualization of the original activity matrix
 - Hunting-related temporal pattern (TP) identification (shuffle-significance pipeline)
 - Astroglia selectivity quantification via energy ratio
 - GMM-based selection of the most selective astroglia
 - 5-condition event-aligned average traces (trace color uses the hunting color)
+
+The required demo data will be downloaded automatically when you run `run_demo.py`, which will be `demo_data_F1_20250807-F2.zip`. You can also download it in `https://www.dropbox.com/scl/fo/y55fdaljtbdmovx7zqh8o/ABr0WLUMMB4oYzEPkU1NlVE?rlkey=l22phqpsm1eec65icu190kzwh&st=ftpv4jdo&dl=0`
 
 ## What the demo does
 
