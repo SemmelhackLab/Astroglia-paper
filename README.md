@@ -37,16 +37,16 @@ This repository contains a runnable demo that reproduces the full analysis pipel
 
 ## Files
 
-- Demo script: `demo_reproduce_20250807_F2.py`
-- Demo data (default fish): `demo_data_F1_20250807-F2/`
-- Demo outputs (generated): `demo_outputs_20250807-F2/`
+- Demo script: `run_demo.py`
+- Demo data: `demo_data_F1_20250807-F2/`
+- Demo outputs: `demo_outputs_20250807-F2/`
 
 ## How to run
 
 Run from the project root:
 
 ```bash
-python demo_reproduce_20250807_F2.py
+python run_demo.py
 ```
 
 The default fish is `20250807-F2`.
@@ -86,7 +86,7 @@ Key output files:
 
 ## Useful environment variables
 
-- `FISH_NAME` (default: `20250807-F1`)
+- `FISH_NAME` (default: `20250807-F2`)
 - `RECOMPUTE_NMF` (`0/1`, default: `0`)  
   If `1`, recomputes NMF from the concatenated activity matrix instead of loading precomputed W/H from the demo data folder.
 - `TP_WINDOW_S` (default: `10`)  
