@@ -29,7 +29,7 @@ This repository contains a runnable demo that reproduces the full analysis pipel
    - shuffle-based per-timepoint significance
    - event-window mask built from hunting (convergence) onsets
    - low-variability ratio `std(background) / mean(|event|)`
-   - objective threshold for the ratio using the intersection of a 2-component GMM fit
+   - objective thresholding for the ratio to select the hunting TP
 4. Compute **energy ratio** selectivity of every astroglia to the selected hunting TP.
 5. Use **GMM** to select the most selective astroglia.
 6. Plot **5-condition event-averaged traces** (Hunting / Passivity / Locomotion / Loom / Struggle).
