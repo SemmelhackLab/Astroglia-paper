@@ -11,7 +11,7 @@ Navigate to the repository directory:
 cd Astroglia-paper
 ```
 
-# Demo: Astroglia NMF → Hunting TP → Energy Ratio → GMM → 5-Condition Event Averages
+# Demo: Astroglia NMF analysis pipeline
 
 This repository contains a runnable demo that reproduces the full analysis pipeline for a single fish (default: `20250807-F1`) in .\demo, starting from the astroglia activity matrix (cells × time) and ending with:
 
