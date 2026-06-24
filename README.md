@@ -81,7 +81,6 @@ Key output files:
 - `tp_low_variability_ratio_hist.png` — ratio distribution + objective GMM intersection threshold
 - `energy_ratio_hist.png` — energy ratio distribution for the selected TP
 - `event_average_5_conditions.png` — 5-condition event-aligned average traces
-- `run_summary.json` — summary metadata and key parameter values
 - `energy_ratio.npy`, `gmm_selected_mask.npy`, `selected_tp_index.npy` — saved intermediate results
 
 ## Useful environment variables
