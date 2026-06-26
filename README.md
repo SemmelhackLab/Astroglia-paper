@@ -21,7 +21,7 @@ This repository contains a runnable demo (run_demo.py) that reproduces the full 
 - GMM-based selection of the most selective astroglia
 - 5-condition event-aligned average traces (trace color uses the hunting color)
 
-You must download the required demo data `demo_data_F1_20250807-F2.zip` in `https://www.dropbox.com/scl/fi/7wkruxep2qujr1va386va/demo_data_F1_20250807-F2.zip?rlkey=z9gln3p8cose6qepwx39zh5kr&st=bwl8h4r8&dl=0`, and put it in the same directory with `run_demo.py` before you run the code.
+You must download the required demo data `demo_data_F1_20250807-F2.zip` in https://www.dropbox.com/scl/fi/7wkruxep2qujr1va386va/demo_data_F1_20250807-F2.zip?rlkey=z9gln3p8cose6qepwx39zh5kr&st=bwl8h4r8&dl=0, and put it in the same directory with `run_demo.py` before you run the code.
 
 ## What the demo does
 
