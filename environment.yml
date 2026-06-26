@@ -15,6 +15,7 @@ dependencies:
   - scikit-image
   - h5py
   - openpyxl
+  - pytables
   - tqdm
   - pillow
   - tifffile
@@ -25,6 +26,7 @@ dependencies:
   - pytorch
   - cpuonly
   - pip:
+      - matplotlib-venn
       - pycatch22
       - sktime
       - scikit-multilearn
