@@ -98,3 +98,45 @@ Key output files:
   If `1`, applies Benjamini–Hochberg FDR across timepoints for each TP.
 
 
+---
+
+# Paper Figure Plotting
+
+This repository also provides a reproducible plotting workflow that consolidates the figure-generation code.
+
+The plotting workflow is implemented in:
+
+- `analysis/paper_figure_tasks_202508.py`
+
+It supports two modes:
+
+1. **Package data** (run once on a machine that has the full original dataset).
+2. **Make figures** (run on any machine using only the packaged data folder).
+
+## Environment setup
+
+Create a conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate astrocyte
+```
+
+## Make figures
+
+Once the data package exists (or has been provided as a zipped folder), figures can be generated without access to the original dataset. You can download the dataset through https://www.dropbox.com/scl/fo/hwsx8tsf8p56o06di400j/AK--2RPp4zGDWQ0QOF1RfjU?rlkey=d2nbuw53fyfuj5utk7o66mt4e&st=v6vw7zre&dl=0.
+
+Inputs:
+
+- `--data`: the packaged data directory
+- `--out`: output figure directory
+
+Run:
+
+```bash
+python "analysis/paper_figure_tasks_202508.py" make-figures ^
+  --data "paper_figure_data_package_202508" ^
+  --out  "paper_figure_outputs_202508"
+```
+
+
