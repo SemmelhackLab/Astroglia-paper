@@ -124,7 +124,7 @@ conda activate astrocyte
 
 ## Make figures
 
-Once the data package exists (or has been provided as a zipped folder), figures can be generated without access to the original dataset. You can download the dataset through https://doi.org/10.6084/m9.figshare.32820485.
+Once the data package exists (or has been provided as a zipped folder), figures can be generated without access to the original dataset. You can download the dataset `paper_figure_data_package_202508.zip` through https://doi.org/10.6084/m9.figshare.32820485.
 
 Inputs:
 
