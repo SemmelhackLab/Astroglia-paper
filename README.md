@@ -21,7 +21,7 @@ This repository contains a runnable demo (run_demo.py) that reproduces the full 
 - GMM-based selection of the most selective astroglia
 - 5-condition event-aligned average traces (trace color uses the hunting color)
 
-You must download the required demo data `demo_data_F1_20250807-F2.zip` in https://www.dropbox.com/scl/fi/7wkruxep2qujr1va386va/demo_data_F1_20250807-F2.zip?rlkey=z9gln3p8cose6qepwx39zh5kr&st=bwl8h4r8&dl=0, and put it in the same directory with `run_demo.py` before you run the code.
+You must download the required demo data `demo_data_F1_20250807-F2.zip` in https://doi.org/10.6084/m9.figshare.32820485, and put it in the same directory with `run_demo.py` before you run the code.
 
 ## What the demo does
 
@@ -124,7 +124,7 @@ conda activate astrocyte
 
 ## Make figures
 
-Once the data package exists (or has been provided as a zipped folder), figures can be generated without access to the original dataset. You can download the dataset through https://www.dropbox.com/scl/fo/hwsx8tsf8p56o06di400j/AK--2RPp4zGDWQ0QOF1RfjU?rlkey=d2nbuw53fyfuj5utk7o66mt4e&st=v6vw7zre&dl=0.
+Once the data package exists (or has been provided as a zipped folder), figures can be generated without access to the original dataset. You can download the dataset through https://doi.org/10.6084/m9.figshare.32820485.
 
 Inputs:
 
